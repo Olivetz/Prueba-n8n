@@ -12,5 +12,5 @@ public interface ProviderRepository extends MongoRepository<Provider, String> {
     List<Provider> findByRegexName(String regexp);
 
     //@Query("{'name' : :#{#name}}")
-    //List<Provider> findByNamePrueba(@Param("name") String name);
+    //List<Provider> findByNamePrueba1(@Param("name") String name);
 }
